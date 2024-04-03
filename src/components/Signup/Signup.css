@@ -1,0 +1,91 @@
+.login-form-container{
+    position: fixed;
+    /* top:-120%; */
+    border:1px solid;
+    min-height: 100vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,.7);
+    z-index: 10000;
+}
+
+.login-form-container active{
+    top:0;
+}
+
+.login-form{
+    border:1px solid;
+    margin:2rem;
+    padding:1.5rem 2rem;
+    background: #fff;
+    border-radius: .3rem;
+    width:50rem;
+}
+
+.login-form h2{
+    font-size: 3rem;
+    text-align: center;
+    color: orange;
+}
+
+.box{
+    width:96%;
+    padding:1rem;
+    font-size: 1.5rem;
+    color:#333;
+    margin:.6rem 0;
+    border:.1rem solid rgba(0,0,0,.3);
+    text-transform: none;
+}
+
+/* .btn{
+    display: block;
+    width:100%;
+    font-size:1.8rem;
+    padding:.8rem;
+    background: rgb(123, 0, 255);
+    border:.2rem solid rgb(0, 162, 255);
+    color:#fff;
+    margin-top:1rem;
+    margin-bottom: 2rem;
+}
+
+ .btn:hover{
+    background: rgb(137, 148, 250);
+    color:#333;
+} */
+
+.login-form label{
+    font-size:1.5rem;
+    margin:0 .5rem;
+}
+
+
+.login-form p{
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+.login-form a{
+    color:orange;
+}
+
+.login-form a:hover{
+    text-decoration: underline;
+}
+
+.login-form-container #form-close{
+    position: absolute;
+    top:2rem;right:4rem;
+    font-size:5rem;
+    color:#fff;
+}
+
+.login-form-container #form-close:hover{
+    color:orange;
+} 
+
+
+

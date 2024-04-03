@@ -1,0 +1,58 @@
+.contact{
+    padding:5rem 6rem;
+}
+
+.contact .contact-container{
+    display: flex;
+    gap:1.5rem;
+    flex-wrap:wrap;
+    align-items: center;
+    margin-top:5rem;
+}
+
+.contact .contact-container .image{
+    flex:1 1 35rem;
+    text-align: center;
+    padding:1rem;
+    height: 35rem;
+}
+
+.contact .contact-container .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact .contact-container .contact-form{
+    box-shadow: 0 .2rem .8rem rgba(0,0,0,.5);
+    flex:1 1 45rem;
+    padding:2rem;
+}
+
+.contact .contact-container .contact-form .inputBox{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.contact .contact-container .contact-form .box, .contact .contact-container .contact-form textarea{
+    background-color: rgba(228, 226, 226, 0.479);
+    font-size: 1.5rem;
+    padding:1rem;
+    margin:1rem 0;
+    border:1px solid #fff;
+    width:45%;
+    border-radius: .3rem;
+}
+
+.contact .contact-container .contact-form .textAr{
+    display:flex;
+    justify-content: space-around;
+}
+
+.contact .contact-container .contact-form textarea{
+    height: 12rem;
+    width:90%;
+    resize:none;
+    flex-grow: 1;
+}
