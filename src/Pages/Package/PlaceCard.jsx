@@ -13,11 +13,11 @@ const PlaceCard = (props) => {
                 </div>
                 <div className='m-3 font-sans text-gray-500 text-xl'>{props.details}</div>
                 <div className='border-t border-black flex justify-between mt-6'>
-                    <div className='m-3'>
-                        <h2 className='font-bold text-3xl font-sans'>{props.time}</h2>
+                    <div className='m-2'>
+                        <h2 className='font-bold text-2xl font-sans'>{props.time}</h2>
                         <h3 className='font-bold text-gray-600'>Suggested Time</h3>
                     </div>
-                    <div className='p-6 text-2xl font-bold text-blue-600 font-sans cursor-pointer'>Explore<i class="fas fa-angle-right m-2"></i></div>
+                    <div className='pt-4 text-2xl font-bold text-blue-600 font-sans cursor-pointer'>Explore<i class="fas fa-angle-right m-2"></i></div>
                 </div>
             </div>
         </div>

@@ -9,7 +9,9 @@ const Navbar = () => {
 
             <label for="" class="fas fa-bars"></label>
 
-            <div className="logo"><span>T</span>ravel</div>
+            <Link to='/'>
+            <div className="logo cursor-pointer"><span>T</span>ravel</div>
+            </Link>
 
             <div className="navbar">
                 <div class="navbar">
